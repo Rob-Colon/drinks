@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --font-family: "Roboto", sans-serif;
+
+  --fs: 10px;
+
+  --clr-light: #d6d6d6;
+  --clr-medium: #a3a3a2;
+  --clr-dark: #2b2c1f;
+  --clr-accent: #c3c69b;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  height: 80vh;
+  width: auto;
+  margin: auto;
+  font-family: var(--font-family);
+  font-size: var(--fs);
+  background: var(--clr-dark);
+}
+
+.card {
+  display: block;
+  justify-content: center;
+  border: 1px solid var(--clr-light);
+  border-radius: 20px;
+  width: fit-content;
+  max-width: 1400px;
+  height: fit-content;
+  margin: 1rem;
+  padding: 2rem;
+}
+
+#drink-section {
+  width: 100%;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+#drink-section img {
+  width: 80%;
+  max-width: 500px;
+  height: auto;
+  margin: 1rem 0;
+}
+
+.title {
+  color: var(--clr-light);
+  font-size: 1.5rem;
+}
+
+h1 {
+  color: var(--clr-accent);
+  font-size: 2.5rem;
+}
+
+ul {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+  color: var(--clr-light);
+}
+
+hr {
+  margin: 2rem 0;
+  background: ;
+}
+
+card {
+  color: var(--clr-accent);
+  font-size: 1.5rem;
+}
