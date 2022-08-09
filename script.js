@@ -60,3 +60,8 @@ function displayRandomCocktail(cocktail) {
     card.innerHTML = cocktail.drinks[0].strInstructions;
     drinkSection.appendChild(card);
 }
+
+const button = document.querySelector('button')
+button.onclick = () => {
+    window.location.reload();
+}
